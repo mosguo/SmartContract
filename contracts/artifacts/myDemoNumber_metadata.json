@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.7.4+commit.3f05b770"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "initNumber",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "newNumber",
+						"type": "int256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "demo smart constract ",
+			"kind": "dev",
+			"methods": {},
+			"title": "Demo",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_mosguo_02.sol": "myDemoNumber"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_mosguo_02.sol": {
+			"keccak256": "0x3e8fa7eebc94a5cec4c639afe3877d4edbb9a64c3c74e3a18c6a2ed59ad5ed08",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4221fc3c740caf32337c19f369d17bacc3e28874540978cff8c5bb275eb7cdb6",
+				"dweb:/ipfs/QmbmoHUU1jnV7VSddihN4jxQHjKHtEqAmJ33uDcGShU5tX"
+			]
+		}
+	},
+	"version": 1
+}

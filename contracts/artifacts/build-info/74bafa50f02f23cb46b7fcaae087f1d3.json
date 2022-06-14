@@ -1,0 +1,67 @@
+{
+	"id": "74bafa50f02f23cb46b7fcaae087f1d3",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.7.4",
+	"solcLongVersion": "0.7.4+commit.3f05b770",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/9_mosguo_01.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity 0.7.4;\r\n/**\r\n * @title Demo\r\n * @dev demo smart constract \r\n * @custom:\r\n */"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/9_mosguo_01.sol": {
+				"ast": {
+					"absolutePath": "contracts/9_mosguo_01.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.7",
+								".4"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:22:0"
+						}
+					],
+					"src": "37:92:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

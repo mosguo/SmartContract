@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.7.4+commit.3f05b770"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCurrentSize",
+				"outputs": [
+					{
+						"internalType": "enum Demo4.StarbuckSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultSize",
+				"outputs": [
+					{
+						"internalType": "enum Demo4.StarbuckSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDefaultSize2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Demo4.StarbuckSize",
+						"name": "size",
+						"type": "uint8"
+					}
+				],
+				"name": "setSize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setVenti",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Demo4.sol": "Demo4"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Demo4.sol": {
+			"keccak256": "0xd762da9fff9dddb64bd8cb62e51617bda296fa3f5b7a71755c0612bf122ee342",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://325880410e3e4b0b6b1f06566ffe4f1f5dfaafa2f6352bf7172a06fcb5f389f3",
+				"dweb:/ipfs/QmQJQTJUBZD56vweMDN4S9f7mULXwoxbJvr1s9jYmQWyNf"
+			]
+		}
+	},
+	"version": 1
+}
